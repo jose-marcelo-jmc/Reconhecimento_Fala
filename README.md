@@ -25,4 +25,8 @@
 * ler audio: O código lê um arquivo de áudio enviado e o transcreve.
   * Processo de execução:
     1. Envie o arquivo de áudio (Certifique-se de que o arquivo está na mesma pasta e faça as alterações necessárias conforme o local, nome e tipo).
-## Necessárias as Bibiotecas 
+
+## Bibliotecas Necessárias:
+
+* speech_recognition
+* time
