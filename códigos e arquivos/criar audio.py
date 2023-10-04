@@ -4,7 +4,7 @@ rec = sr.Recognizer()
 
 with sr.Microphone() as microfone:
     rec.adjust_for_ambient_noise(microfone)
-    print('pode começar a falar:')
+    print('Comece a falar:')
     audio = rec.listen(microfone)
 
 with open("audio.wav", "wb") as arquivo:

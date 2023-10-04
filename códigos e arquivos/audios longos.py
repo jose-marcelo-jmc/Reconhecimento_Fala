@@ -14,7 +14,7 @@ rec = sr.Recognizer()
 
 with sr.Microphone() as microfone:
     rec.adjust_for_ambient_noise(microfone)
-    print('Comece a falar')
+    print('Comece a falar:')
 
 parar_ouvir = rec.listen_in_background(microfone, tratar_audio)
 
